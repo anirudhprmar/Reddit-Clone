@@ -41,16 +41,16 @@ body{
 .nav-search input{
     width: 29rem;
     padding: 10px;
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 20px 20px 20px 20px;
     background-color: #181C1Fff;
     border: none;
     
 }
 
 .nav-search .searchLogo{
-    background-color: #181C1Fff;
+    /* background-color: #181C1Fff; */
     padding: 10px;
-    border-radius: 20px 0px 0px 20px;
+    /* border-radius: 20px 0px 0px 20px; */
     margin-right: -10px;
 }
 
