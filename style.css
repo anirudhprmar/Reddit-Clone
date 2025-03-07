@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(0deg, #48545Bff, #181C1Fff 75%) ;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top-navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    align-items: center;
+    background-color: rgb(18, 22, 24);
+}
+
+.heading{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.main-logo{
+    margin-left: 13px;
+}
+
+
+.nav-search{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 40%;
+}
+
+.nav-search input{
+    width: 29rem;
+    padding: 10px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: #181C1Fff;
+    border: none;
+    
+}
+
+.nav-search .searchLogo{
+    background-color: #181C1Fff;
+    padding: 10px;
+    border-radius: 20px 0px 0px 20px;
+    margin-right: -10px;
+}
+
+.nav-search input:focus{
+border: white;
+}
+
+.nav-menu{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-menu button{
+    background:#48545Bff;
+    border: none;
+    color: white;
+    padding:4px;
+    font-size: 15px;
+
+}
+
+.nav-menu .getApp-btn{
+    border: none;
+    padding:10px;
+    color: white;
+    height:2.5rem;
+    border-radius: 20px;
+    background:#48545Bff;
+    display: flex;
+    gap: 5px;
+
+}
+
+.nav-menu .logIn-btn{
+    background-color: #d93900;
+    padding: 10px;
+    border-radius: 20px;
+}

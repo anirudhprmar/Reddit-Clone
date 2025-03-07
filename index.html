@@ -4,24 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reddit</title>
+    <title>Reddit - Dive into anything</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <div>
-            <img src="" alt="">
-            <span>reddit</span>
+    <header class="top-navigation">
+        <div class="main-logo" style="display: flex; align-items: center; gap: 10px;" >
+            <img src="assets/logo.svg" alt="">
+            <span class="heading">reddit</span>
         </div>
-        <div>
-            <img src="" alt="">
+        <div class="nav-search" >
+            <img src="assets/searchlogo.svg" alt="" class="searchLogo">
             <span><input type="text"></span>
         </div>
-        <div>
-            <div><button><img src="" alt="">Get App</button></div>
-            <div><button>Log In</button></div>
-            <div><img src="" alt=""></div>
+        <div class="nav-menu">
+            <div class="getApp-btn">
+                <img src="assets/qrCode.svg" alt="">
+                <button>Get App</button>
+            </div>
+            <div><button class="logIn-btn">Log In</button></div>
+            <div style="margin-right: 30px; background-color: white; border-radius: 20px; padding: 3px;"><img src="assets/moreDots.svg" alt="" ></div>
         </div>
     </header>
 
@@ -173,6 +177,7 @@
         </section>
     </main>
 
+<script src="script.js"></script>
 </body>
 
 </html>
