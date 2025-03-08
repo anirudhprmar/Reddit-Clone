@@ -126,16 +126,19 @@ border: white;
 .main-content{
     display: flex;
     position:relative;
+    overflow: hidden;
 }
 
 .top-news{
-    display: flex;
-    justify-content: center;
-    align-items:flex-start;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 290px));
+    gap: 10px;
+
     width: 100%;
     position: absolute;
     top:30px;
     left: 250px;
+    min-width: 80%;
 
 }
 
