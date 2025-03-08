@@ -150,10 +150,37 @@ border: white;
 }
 
 .content-space{
-    /* display: flex; */
-    justify-content: center;
     position: absolute;
+    padding: 100px;
     /* top:100px;   */
-    bottom: 31.25rem;
-    left: 15.6rem;
+    /* bottom: 600px; */
+    left: 25rem;
+    width: 300rem;
+    top: 5rem;
+
+}
+.content-space .btn-sec{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  
+}
+.content-space .btn-sec button{
+   background-color: dodgerblue;
+   padding: 7px;
+   border: none;
+   border-radius: 20px;
+   color: white;
+   width: 50px;
+}
+
+.post-top-section{
+    display: flex;
+    gap: 16rem;
+}
+
+.post-mid-section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
