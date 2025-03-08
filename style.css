@@ -16,6 +16,7 @@ body{
     padding: 2px;
     align-items: center;
     background-color: rgb(18, 22, 24);
+
 }
 
 .heading{
@@ -91,4 +92,34 @@ border: white;
     background-color: #d93900;
     padding: 10px;
     border-radius: 20px;
+}
+
+/* responsive design */
+/* svg make their color white */
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+
+}
+
+.first-ele{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.imp-section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.sec-ele{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
