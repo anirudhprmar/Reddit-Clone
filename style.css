@@ -123,3 +123,34 @@ border: white;
     flex-direction: column;
     gap: 10px;
 }
+.main-content{
+    display: flex;
+    position:relative;
+}
+
+.top-news{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    width: 100%;
+    position: absolute;
+    top:30px;
+    left: 250px;
+
+}
+
+.right-sidebar{
+    /* display: flex; */
+    position: absolute;
+    top:300px;
+    right: 30px;
+}
+
+.content-space{
+    /* display: flex; */
+    justify-content: center;
+    position: absolute;
+    /* top:100px;   */
+    bottom: 31.25rem;
+    left: 15.6rem;
+}
